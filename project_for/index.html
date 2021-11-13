@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="game"></div>
+    <h1 class="msg" style="text-align: center;"> O "X" começa!</h1>
+    <script src="./jogo.js"></script>
+    <script >
+        JogoDaVelha.init(document.querySelector('.game'));
+        JogoDaVelha.start();
+    </script>
+
+    <footer style="text-align: center; color: white;">Desenvolvido por Ebenézer Dorneles</footer>
+</body>
+</html>
